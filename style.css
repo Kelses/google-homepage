@@ -1,7 +1,5 @@
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+text-align: center;
   padding-top: 150px;
 }
 .search {
@@ -20,7 +18,7 @@
   border: none;
 }
 .topnav-link {
-  text-decoration: none;
+  
   padding-left: 12px;
 }
 a:link {
@@ -39,15 +37,38 @@ a:hover {
 }
 .bottom {
   bottom: 0;
-  position: fixed;
-  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 30px;
+  padding-top: 15px;
+  background-color: rgb(233, 233, 233);
+  font-size: 17px;
+  border-top: 1px solid rgb(177, 174, 174);
+  padding-bottom: 15px;
 }
 .endfoot {
   text-align: end;
   padding-right: 12px;
+  color: gray;
 }
 .footy  {
-  font-size: x-large;
+  font-size: large;
+}
+.fofo {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+#lang-offer {
+  height: 350px;
+}
+.left-foot {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.left-foot {
+  color: gray;
 }
